@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://earnlink.in/')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'https://earnlinks.in/st?api=6999b05b451bed93443edef4ce6da4926d983d8e&url=yourdestinationlink.com')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://youtu.be/LF-pIEsWSZs?si=8RQ6BQKUxVcmL_BD')
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://earnlink.in/')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'https://earnlinks.in/st?api=6999b05b451bed93443edef4ce6da4926d983d8e&url=yourdestinationlink.com')
 TUTORIAL = environ.get('TUTORIAL', 'https://youtu.be/LF-pIEsWSZs?si=8RQ6BQKUxVcmL_BD') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
