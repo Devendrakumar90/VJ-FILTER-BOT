@@ -101,7 +101,7 @@ MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 IMDB = bool(environ.get('IMDB', False))
 AUTO_FFILTER = bool(environ.get('AUTO_FFILTER', True))
-AUTO_DELETE = bool(environ.get('AUTO_DELETE', True))
+AUTO_DELETE = bool(environ.get('AUTO_DELETE', False))
 LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", False))
 SPELL_CHECK_REPLY = bool(environ.get("SPELL_CHECK_REPLY", True))
 MELCOW_NEW_USERS = bool(environ.get('MELCOW_NEW_USERS', True))
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://earnlink.in/')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'https://earnlinks.in/st?api=6999b05b451bed93443edef4ce6da4926d983d8e&url=yourdestinationlink.com')
 TUTORIAL = environ.get('TUTORIAL', 'https://youtu.be/LF-pIEsWSZs?si=8RQ6BQKUxVcmL_BD') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
