@@ -91,7 +91,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cinema_house_dis')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cinema_house_update')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cinema_house_update') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/its_anuj_123')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/undefine_123')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -127,8 +127,8 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://shortlink.com/')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'https://speedlinkurl.com/api?api=f6694cc21dbc1b4727e32ce3d27ab61893ec5277&url=yourdestinationlink.com&alias=CustomAlias')
-TUTORIAL = environ.get('TUTORIAL', 'https://youtu.be/LF-pIEsWSZs?si=8RQ6BQKUxVcmL_BD') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_API = environ.get('SHORTLINK_API', 'https://speedlinkurl.com/f6694cc21dbc1b4727e32ce3d27ab61893ec5277')
+TUTORIAL = environ.get('TUTORIAL', 'https://youtube.com/shorts/u3jJPRWxS7s?si=TCJjHGU-EEFj-0_a') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
