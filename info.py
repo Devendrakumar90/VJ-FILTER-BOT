@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8048349120:AAEt_PVSV1ZmQSunMvqW7QrXCHeVdmM
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/N11.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/64m.jpg')).split()
 
 
 # Admins & Users
@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://shortlink.com/')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'https://speedlinkurl.com/f6694cc21dbc1b4727e32ce3d27ab61893ec5277')
-TUTORIAL = environ.get('TUTORIAL', 'https://youtube.com/shorts/u3jJPRWxS7s?si=TCJjHGU-EEFj-0_a') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c0faab1f5c6e9d47a38356b93ccc278fe27f5672')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tutorialshortlinks/7') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
