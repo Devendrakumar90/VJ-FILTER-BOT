@@ -26,7 +26,7 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1002396156493'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002475155819'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002406799151').split()]  # For Multiple Id Use One Space Between Each.
@@ -112,9 +112,9 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://earnlink.in/')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'https://earnlinks.in/st?api=6999b05b451bed93443edef4ce6da4926d983d8e&url=yourdestinationlink.com')
+VERIFY = bool(environ.get('VERIFY', True))
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'arlinks.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'c0faab1f5c6e9d47a38356b93ccc278fe27f5672')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://youtu.be/LF-pIEsWSZs?si=8RQ6BQKUxVcmL_BD')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
