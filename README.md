@@ -5,7 +5,7 @@
   Abhishek Filtar Bot
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+A.K+Filter+Bot!)
 </p>
 
 ## Main Feature 
