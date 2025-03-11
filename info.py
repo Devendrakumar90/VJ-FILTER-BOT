@@ -126,8 +126,8 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://indiaearnx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4648f3b9a330674316e0cf01a7b5e8611e4fcd8a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://BrieflyUrl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlodm/13') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
