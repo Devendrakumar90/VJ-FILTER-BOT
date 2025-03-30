@@ -94,7 +94,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Hindi_movie_uplod') # S
 OWNER_LNK = environ.get('OWNER_LNK', 'http://t.me/Abhikumar7799')
 
 # True Or False
-AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
+AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
