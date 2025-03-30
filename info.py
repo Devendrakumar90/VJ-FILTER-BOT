@@ -113,9 +113,9 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'http://BrieflyUrl.com')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://brieflyurl.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downlodm/14')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downlodm/15')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://BrieflyUrl.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://brieflyurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlodm/14') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlodm/15') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
