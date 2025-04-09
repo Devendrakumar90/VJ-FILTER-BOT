@@ -113,7 +113,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'http://PapajiURL.com')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'PapajiURL.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '12dc231600f4e8a17f49dff0547091130797a30d')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downlodm/15')
 
@@ -126,7 +126,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://PapajiURL.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'PapajiURL.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '12dc231600f4e8a17f49dff0547091130797a30d')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlod01/3') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
