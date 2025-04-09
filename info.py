@@ -113,8 +113,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'brieflyurl.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'PapajiURL.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '12dc231600f4e8a17f49dff0547091130797a30d')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downlodm/15')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
@@ -126,8 +126,8 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'brieflyurl.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'PapajiURL.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '12dc231600f4e8a17f49dff0547091130797a30d')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlodm/15') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
