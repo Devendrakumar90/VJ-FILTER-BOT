@@ -27,6 +27,9 @@ from plugins.clone import restart_bots
 from TechVJ.bot import TechVJBot
 from TechVJ.util.keepalive import ping_server
 from TechVJ.bot.clients import initialize_clients
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1002592134690
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
